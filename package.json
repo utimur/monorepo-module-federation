@@ -1,0 +1,11 @@
+{
+  "name": "monorepo-module-federation",
+  "version": "1.0.0",
+  "scripts": {
+//    "start": 'запускаем разом все проекты'
+  },
+  "workspaces": [
+    "packages/*",
+    "services/*"
+  ]
+}
